@@ -11,7 +11,13 @@ spring:
 
 logging:
   level:
-    web: debug
+    web: DEBUG
+    com.netflix: DEBUG
+    org.springframework.web: DEBUG
+    edu.iu.c322: DEBUG
+
+
+
 
 
 
